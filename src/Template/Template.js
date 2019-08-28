@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../Template/style.css';
 
 
-class Template extends Component {
-    constructor(props) {
-        super(props);
+function Template(props) {
 
-    }
-    render() {
-        return(
-            <div>
+    return(
+        <div>
 
-            </div>
-        )
-    }
+         </div>
+    )
 }
+
 export default Template;
