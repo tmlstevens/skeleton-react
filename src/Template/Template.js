@@ -1,22 +1,18 @@
 import React, { Component } from 'react';
-import Template from './Template/Template';
+import '../Template/style.css';
 
 
-class App extends Component {
+class Template extends Component {
     constructor(props) {
         super(props);
-        this.state = {
 
-        }
     }
-
     render() {
-        return (
+        return(
             <div>
 
             </div>
         )
     }
 }
-
-export default App;
+export default Template;
